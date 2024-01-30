@@ -12,7 +12,13 @@ menu{
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(216, 220, 220);
 }
+
+header{
+    background-color: white;
+}
+
 
 .logo{
     margin-left: 15px;
@@ -32,7 +38,7 @@ main{
 
 .container{
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 20px auto;
     background-color: white;
 }
 
@@ -133,6 +139,16 @@ main{
     line-height: 25px;
     font-size: 15px;
     color: white;
+}
+
+.check{
+    color: green;
+    font-size: 30px;
+}
+
+.notcheck{
+    color: red;
+    font-size: 30px;
 }
 
 li{
