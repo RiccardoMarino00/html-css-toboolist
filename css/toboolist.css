@@ -10,6 +10,10 @@ menu{
     list-style: none;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .logo{
     margin-left: 15px;
     margin-top: 20px;
@@ -29,7 +33,7 @@ main{
 .container{
     max-width: 1024px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 .button{
@@ -64,6 +68,75 @@ main{
     line-height: 25px;
     font-size: 15px;
     color: white;
+}
+
+.q1goals{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(133, 29, 142);
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+}
+
+.recruiting{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(15, 104, 46);
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+}
+
+.mobile{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(167, 121, 13);
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+}
+
+.website{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(208, 65, 234);
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+}
+
+.sales{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(20, 98, 60);
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+}
+
+li{
+    padding-bottom: 15px;
 }
 
 .list{
