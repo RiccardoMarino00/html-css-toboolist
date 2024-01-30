@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+menu{
+    list-style: none;
+}
+
+.logo{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+ 
+
+.title{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;;
+}
+
+main{
+    background-color: rgb(216, 220, 220);
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.button{
+    padding: 8px;
+    background-color: rgb(67, 120, 234);
+    border: rgb(67, 120, 234) ;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 5px;
+}
+
+.button-section{
+    padding: 8px;
+    border:  rgb(101, 103, 105);
+    border-radius: 5px;
+    color: rgb(101, 103, 105);
+    margin: 10px 5px;
+}
+
+.add-button{
+    border-bottom: 2px solid rgb(216, 220, 220);
+}
+
+.editorial{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(65, 145, 231);
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+}
+
+.list{
+    padding: 20px;
+}
